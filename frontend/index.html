@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>CrystalClouds</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>CRYSTALCLOUDS</h1>
+  <button id="loginBtn">Zaloguj przez Discord</button>
+  <div id="user"></div>
+</header>
+
+<section class="products" id="products"></section>
+
+<div id="modal" class="modal hidden">
+  <div class="modal-content">
+    <h2>Zamówienie</h2>
+    <input type="number" id="quantity" placeholder="Ilość">
+    <select id="payment">
+      <option>BLIK</option>
+      <option>PayPal</option>
+      <option>Crypto</option>
+    </select>
+    <button onclick="submitOrder()">Potwierdź</button>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
