@@ -1,0 +1,8 @@
+{
+  "name": "crystalclouds-bot",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "express": "^4.18.2",
+    "dotenv": "^16.0.0"
+  }
+}
