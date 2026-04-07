@@ -1,0 +1,6 @@
+crystalclouds/
+├── frontend/
+├── backend/
+├── bot/
+├── .env.example
+├── README.md
