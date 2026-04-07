@@ -1,0 +1,42 @@
+body {
+  background: #0f172a;
+  color: white;
+  font-family: Arial;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.products {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background: #1e293b;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+button {
+  background: #3b82f6;
+  border: none;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.modal {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.8);
+}
+
+.hidden {
+  display: none;
+}
